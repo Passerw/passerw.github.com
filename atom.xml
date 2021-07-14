@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://b.wguan.top/"/>
-  <updated>2021-07-14T01:28:31.801Z</updated>
+  <updated>2021-07-14T06:02:25.389Z</updated>
   <id>https://b.wguan.top/</id>
   
   <author>
@@ -17,56 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>演示666</title>
-    <link href="https://b.wguan.top/2020/05/26/%E6%96%87%E7%AB%A01/"/>
-    <id>https://b.wguan.top/2020/05/26/%E6%96%87%E7%AB%A01/</id>
-    <published>2020-05-26T04:12:57.000Z</published>
-    <updated>2021-07-14T01:28:31.801Z</updated>
+    <title>adb 无线连接教程</title>
+    <link href="https://b.wguan.top/2021/07/14/adb/"/>
+    <id>https://b.wguan.top/2021/07/14/adb/</id>
+    <published>2021-07-14T06:00:00.000Z</published>
+    <updated>2021-07-14T06:02:25.389Z</updated>
     
-    <content type="html"><![CDATA[<p>该应用用于演示</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>adb 无线连接教程</p><span id="more"></span><ul><li>开启手机无线连接(手机关机需要重新开启)  <ol><li>数据线连接设备到电脑  </li><li>执行adb devices 检测设备</li><li>执行adb tcpip 5555  开启设备无线连接</li></ol></li><li>adb无线连接设备<ol><li>手机和设备在统一局域网</li><li>电脑执行连接设备命令     adb connect 手机ip地址:5555 </li></ol></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;该应用用于演示&lt;/p&gt;
+      &lt;p&gt;adb 无线连接教程&lt;/p&gt;
     
     </summary>
     
     
-      <category term="分类1" scheme="https://b.wguan.top/categories/%E5%88%86%E7%B1%BB1/"/>
+      <category term="教程" scheme="https://b.wguan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="jQuery" scheme="https://b.wguan.top/tags/jQuery/"/>
-    
-      <category term="表格" scheme="https://b.wguan.top/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-      <category term="表单验证" scheme="https://b.wguan.top/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
+      <category term="adb" scheme="https://b.wguan.top/tags/adb/"/>
     
   </entry>
   
   <entry>
-    <title>文章2</title>
-    <link href="https://b.wguan.top/2020/05/26/%E6%96%87%E7%AB%A02/"/>
-    <id>https://b.wguan.top/2020/05/26/%E6%96%87%E7%AB%A02/</id>
-    <published>2020-05-26T04:12:57.000Z</published>
-    <updated>2021-07-13T07:30:39.807Z</updated>
+    <title>Markdown 教程</title>
+    <link href="https://b.wguan.top/2021/07/14/markdown/"/>
+    <id>https://b.wguan.top/2021/07/14/markdown/</id>
+    <published>2021-07-14T05:00:00.000Z</published>
+    <updated>2021-07-14T05:59:22.936Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>精简版Markdown基础语法</p><span id="more"></span><h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h3><blockquote><p><code>#~###### 一到六级标题</code></p></blockquote><h3 id="2-段落"><a href="#2-段落" class="headerlink" title="2. 段落"></a>2. 段落</h3><blockquote><p><code>段落的换行是使用两个以上空格加上回车</code></p></blockquote><h3 id="3-列表"><a href="#3-列表" class="headerlink" title="3. 列表"></a>3. 列表</h3><h5 id="3-1-无序列表"><a href="#3-1-无序列表" class="headerlink" title="3.1. 无序列表"></a>3.1. 无序列表</h5><blockquote><p><code>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记</code></p></blockquote><h5 id="3-2-有序列表"><a href="#3-2-有序列表" class="headerlink" title="3.2. 有序列表"></a>3.2. 有序列表</h5><blockquote><p><code>有序列表使用数字并加上 . 号来表示</code></p></blockquote><h3 id="4-区块"><a href="#4-区块" class="headerlink" title="4. 区块"></a>4. 区块</h3><blockquote><p><code>使用&gt;号表示区块,一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套</code></p></blockquote><h3 id="5-代码"><a href="#5-代码" class="headerlink" title="5. 代码"></a>5. 代码</h3><blockquote><p><code>代码区块使用 4 个空格或者一个制表符（Tab 键）。</code></p></blockquote><h3 id="6-链接"><a href="#6-链接" class="headerlink" title="6. 链接"></a>6. 链接</h3><blockquote><p><code>[链接名称](链接地址)</code> 或者 <code>&lt;链接地址&gt;</code>  </p></blockquote><h3 id="7-图片"><a href="#7-图片" class="headerlink" title="7. 图片"></a>7. 图片</h3><blockquote><p><code>![alt 属性文本](图片地址)</code> 或者<code>![alt 属性文本](图片地址 &quot;标题&quot;)</code></p></blockquote><h3 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h3><blockquote><p><code>制作表格使用 | 来分隔不同的单元格，必须使用-来分隔表头和行。</code><br><code>示例：</code><br><code>|  a  |  b  |  c  |</code><br><code>| :-: | :-: | :-: |</code><br><code>| 测试 | 测试 | 测试|</code>  </p></blockquote><h3 id="9-其他"><a href="#9-其他" class="headerlink" title="9. 其他"></a>9. 其他</h3><blockquote><p><code>不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写</code><br><code>目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等</code></p></blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      &lt;p&gt;精简版Markdown基础语法&lt;/p&gt;
     
     </summary>
     
     
-      <category term="分类2" scheme="https://b.wguan.top/categories/%E5%88%86%E7%B1%BB2/"/>
+      <category term="教程" scheme="https://b.wguan.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="jQuery" scheme="https://b.wguan.top/tags/jQuery/"/>
+      <category term="markdown" scheme="https://b.wguan.top/tags/markdown/"/>
     
-      <category term="表格" scheme="https://b.wguan.top/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-      <category term="表单验证" scheme="https://b.wguan.top/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
+      <category term="md" scheme="https://b.wguan.top/tags/md/"/>
     
   </entry>
   

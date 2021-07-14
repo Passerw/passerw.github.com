@@ -1,57 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>演示666</title>
-    <url>/2020/05/26/%E6%96%87%E7%AB%A01/</url>
-    <content><![CDATA[<p>该应用用于演示</p>
+    <title>adb 无线连接教程</title>
+    <url>/2021/07/14/adb/</url>
+    <content><![CDATA[<p>adb 无线连接教程</p>
 <span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ul>
+<li>开启手机无线连接(手机关机需要重新开启)  <ol>
+<li>数据线连接设备到电脑  </li>
+<li>执行adb devices 检测设备</li>
+<li>执行adb tcpip 5555  开启设备无线连接</li>
+</ol>
+</li>
+<li>adb无线连接设备<ol>
+<li>手机和设备在统一局域网</li>
+<li>电脑执行连接设备命令     adb connect 手机ip地址:5555 </li>
+</ol>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>分类1</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>jQuery</tag>
-        <tag>表格</tag>
-        <tag>表单验证</tag>
+        <tag>adb</tag>
       </tags>
   </entry>
   <entry>
-    <title>文章2</title>
-    <url>/2020/05/26/%E6%96%87%E7%AB%A02/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <title>Markdown 教程</title>
+    <url>/2021/07/14/markdown/</url>
+    <content><![CDATA[<p>精简版Markdown基础语法</p>
 <span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h3><blockquote>
+<p><code>#~###### 一到六级标题</code></p>
+</blockquote>
+<h3 id="2-段落"><a href="#2-段落" class="headerlink" title="2. 段落"></a>2. 段落</h3><blockquote>
+<p><code>段落的换行是使用两个以上空格加上回车</code></p>
+</blockquote>
+<h3 id="3-列表"><a href="#3-列表" class="headerlink" title="3. 列表"></a>3. 列表</h3><h5 id="3-1-无序列表"><a href="#3-1-无序列表" class="headerlink" title="3.1. 无序列表"></a>3.1. 无序列表</h5><blockquote>
+<p><code>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记</code></p>
+</blockquote>
+<h5 id="3-2-有序列表"><a href="#3-2-有序列表" class="headerlink" title="3.2. 有序列表"></a>3.2. 有序列表</h5><blockquote>
+<p><code>有序列表使用数字并加上 . 号来表示</code></p>
+</blockquote>
+<h3 id="4-区块"><a href="#4-区块" class="headerlink" title="4. 区块"></a>4. 区块</h3><blockquote>
+<p><code>使用&gt;号表示区块,一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套</code></p>
+</blockquote>
+<h3 id="5-代码"><a href="#5-代码" class="headerlink" title="5. 代码"></a>5. 代码</h3><blockquote>
+<p><code>代码区块使用 4 个空格或者一个制表符（Tab 键）。</code></p>
+</blockquote>
+<h3 id="6-链接"><a href="#6-链接" class="headerlink" title="6. 链接"></a>6. 链接</h3><blockquote>
+<p><code>[链接名称](链接地址)</code> 或者 <code>&lt;链接地址&gt;</code>  </p>
+</blockquote>
+<h3 id="7-图片"><a href="#7-图片" class="headerlink" title="7. 图片"></a>7. 图片</h3><blockquote>
+<p><code>![alt 属性文本](图片地址)</code> 或者<code>![alt 属性文本](图片地址 &quot;标题&quot;)</code></p>
+</blockquote>
+<h3 id="8-表格"><a href="#8-表格" class="headerlink" title="8. 表格"></a>8. 表格</h3><blockquote>
+<p><code>制作表格使用 | 来分隔不同的单元格，必须使用-来分隔表头和行。</code><br><code>示例：</code><br><code>|  a  |  b  |  c  |</code><br><code>| :-: | :-: | :-: |</code><br><code>| 测试 | 测试 | 测试|</code>  </p>
+</blockquote>
+<h3 id="9-其他"><a href="#9-其他" class="headerlink" title="9. 其他"></a>9. 其他</h3><blockquote>
+<p><code>不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写</code><br><code>目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等</code></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>分类2</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>jQuery</tag>
-        <tag>表格</tag>
-        <tag>表单验证</tag>
+        <tag>markdown</tag>
+        <tag>md</tag>
       </tags>
   </entry>
 </search>
