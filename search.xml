@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>h5播放rtsp</title>
+    <url>/2021/07/15/rtsp/</url>
+    <content><![CDATA[<p>借助VLC串流，使用h5video播放rtsp流</p>
+<span id="more"></span>
+<p>h5 video标签不支持直接播放rtsp流数据，故需要借助VLC转码处理后使用video标签播放  </p>
+<ol>
+<li><a href="https://www.videolan.org/vlc/">下载VLC软件</a></li>
+<li>安装后打开 媒体-&gt;打开网络串流<br><img src="../images/rtsp/rtsp1.png" alt="b.wguan.top"></li>
+<li>输完地址之后在右下角选择串流<br>例如： rtmp://58.200.131.2:1935/livetv/cctv1<br><img src="../images/rtsp/rtsp2.png" alt="b.wguan.top"><br><img src="../images/rtsp/rtsp3.png" alt="b.wguan.top"></li>
+<li>点击底下的下一步-&gt;Http,选中HTTP<br> <img src="../images/rtsp/rtsp4.png" alt="b.wguan.top"></li>
+<li>然后点击右边的添加-&gt;在路径处写上/cctv1,转换出来的视频流地址为如<a href="http://localhost:8080/cctv1">http://localhost:8080/cctv1</a><br> <img src="../images/rtsp/rtsp5.png" alt="b.wguan.top"></li>
+<li>h5播放<br> <code>&lt;video src=&quot;http://localhost:8080/cctv1&quot; autoplay controls style=&quot;width: 500px;height: 500px;&quot;&gt;&lt;/video&gt;</code></li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>h5</tag>
+        <tag>rtsp</tag>
+        <tag>video</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>adb 无线连接教程</title>
     <url>/2021/07/14/adb/</url>
     <content><![CDATA[<p>adb 无线连接教程</p>
@@ -28,7 +52,7 @@
   </entry>
   <entry>
     <title>Markdown 教程</title>
-    <url>/2021/07/14/markdown/</url>
+    <url>/2021/07/14/md/</url>
     <content><![CDATA[<p>精简版Markdown基础语法</p>
 <span id="more"></span>
 <h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h3><blockquote>

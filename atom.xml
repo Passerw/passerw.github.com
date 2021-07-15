@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://b.wguan.top/"/>
-  <updated>2021-07-14T06:02:25.389Z</updated>
+  <updated>2021-07-15T09:07:55.051Z</updated>
   <id>https://b.wguan.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>h5播放rtsp</title>
+    <link href="https://b.wguan.top/2021/07/15/rtsp/"/>
+    <id>https://b.wguan.top/2021/07/15/rtsp/</id>
+    <published>2021-07-15T08:50:00.000Z</published>
+    <updated>2021-07-15T09:07:55.051Z</updated>
+    
+    <content type="html"><![CDATA[<p>借助VLC串流，使用h5video播放rtsp流</p><span id="more"></span><p>h5 video标签不支持直接播放rtsp流数据，故需要借助VLC转码处理后使用video标签播放  </p><ol><li><a href="https://www.videolan.org/vlc/">下载VLC软件</a></li><li>安装后打开 媒体-&gt;打开网络串流<br><img src="../images/rtsp/rtsp1.png" alt="b.wguan.top"></li><li>输完地址之后在右下角选择串流<br>例如： rtmp://58.200.131.2:1935/livetv/cctv1<br><img src="../images/rtsp/rtsp2.png" alt="b.wguan.top"><br><img src="../images/rtsp/rtsp3.png" alt="b.wguan.top"></li><li>点击底下的下一步-&gt;Http,选中HTTP<br> <img src="../images/rtsp/rtsp4.png" alt="b.wguan.top"></li><li>然后点击右边的添加-&gt;在路径处写上/cctv1,转换出来的视频流地址为如<a href="http://localhost:8080/cctv1">http://localhost:8080/cctv1</a><br> <img src="../images/rtsp/rtsp5.png" alt="b.wguan.top"></li><li>h5播放<br> <code>&lt;video src=&quot;http://localhost:8080/cctv1&quot; autoplay controls style=&quot;width: 500px;height: 500px;&quot;&gt;&lt;/video&gt;</code></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;借助VLC串流，使用h5video播放rtsp流&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://b.wguan.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="h5" scheme="https://b.wguan.top/tags/h5/"/>
+    
+      <category term="rtsp" scheme="https://b.wguan.top/tags/rtsp/"/>
+    
+      <category term="video" scheme="https://b.wguan.top/tags/video/"/>
+    
+  </entry>
   
   <entry>
     <title>adb 无线连接教程</title>
@@ -41,8 +68,8 @@
   
   <entry>
     <title>Markdown 教程</title>
-    <link href="https://b.wguan.top/2021/07/14/markdown/"/>
-    <id>https://b.wguan.top/2021/07/14/markdown/</id>
+    <link href="https://b.wguan.top/2021/07/14/md/"/>
+    <id>https://b.wguan.top/2021/07/14/md/</id>
     <published>2021-07-14T05:00:00.000Z</published>
     <updated>2021-07-14T05:59:22.936Z</updated>
     
